@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="http://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../static/css/style.css">
+    <link rel="stylesheet" href="../static/css/fakeloader.css">
+
+    <style>
+    </style>
+</head>
+<body>
+<div class="fakeloader"></div>
+
+<div id="container">
+    <div class="search bar3">
+        <form method="post">
+            <input type="text" placeholder="请输入您要下载链接..." name="url">
+            <button type="submit" id="download"></button>
+        </form>
+    </div>
+</div>
+
+
+<script src="http://libs.baidu.com/jquery/1.11.1/jquery.min.js"></script>
+<script src="../static/js/fakeloader.js"></script>
+<script>
+    $('#download').click(function () {
+        $(".fakeloader").fakeLoader({
+            timeToHide: 9999999999,
+            zIndex: "999",
+            bgColor: "#6f37b7",
+            spinner: "spinner7"
+        });
+    });
+
+</script>
+</body>
+
+</html>
