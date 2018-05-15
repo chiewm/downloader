@@ -1,0 +1,87 @@
+* {
+    margin: 0px auto
+}
+
+body {
+    background: #6f37b7
+}
+
+#container {
+    margin: 0 auto;
+}
+
+div.search {
+    padding: 350px 0;
+}
+
+form {
+    position: relative;
+    width: 600px;
+    margin: 0 auto;
+}
+
+input, button {
+    border: none;
+    outline: none;
+}
+
+input {
+    width: 100%;
+    height: 42px;
+    padding-left: 13px;
+}
+
+button {
+    height: 42px;
+    width: 42px;
+    cursor: pointer;
+    position: absolute;
+}
+
+.bar3 form {
+    background: #fff;
+}
+
+.bar3 input, .bar3 button {
+    background: transparent;
+}
+
+.bar3 button {
+    top: 0;
+    right: 0;
+}
+
+.bar3 button:before {
+    content: "\f019";
+    font-family: FontAwesome;
+    font-size: 16px;
+    color: #333;
+}
+
+.fl {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
+
+.myButton {
+	background-color:#6f38b7;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Verdana;
+	font-size:15px;
+	padding:10px 28px;
+	text-decoration:none;
+}
+.myButton:hover {
+	background-color:#000000;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
