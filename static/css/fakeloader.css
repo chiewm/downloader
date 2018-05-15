@@ -332,6 +332,7 @@
       width: 90px;
       height: 30px;
       text-align: center;
+
     }
 
     .spinner7 > div {
@@ -341,6 +342,7 @@
       margin-left:3px;
       border-radius: 50%;
       display: inline-block;
+      content: "2222";
 
       -webkit-animation: stretchdelay 0.7s infinite ease-in-out;
       animation: stretchdelay 0.7s infinite ease-in-out;
